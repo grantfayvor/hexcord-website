@@ -176,3 +176,38 @@ button {
     font-size: 24px;
   }
 }
+
+@media (max-width: 600px) {
+  .main__header, .main__container {
+    width: 94%;
+    margin: 0 3%;
+  }
+
+  .coming__soon {
+    width: 100%;
+  }
+
+  .coming__soon>form {
+    width: 100%;
+  }
+
+  .default__input {
+    padding: 0 1%;
+    width: 98%;
+  }
+
+  .main__footer {
+    padding-bottom: 0px;
+    width: 94%;
+    margin: 0 3%;
+    line-height: 5;
+  }
+
+  .coming__soon__heading {
+    margin-top: 10px;
+  }
+
+  .timestamp {
+    line-height: inherit;
+  }
+}

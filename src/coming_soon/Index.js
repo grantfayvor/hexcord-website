@@ -11,7 +11,7 @@ const ComingSoon = props => {
         <h3 className="message">Get notified when we launch</h3>
         <form>
           <div className="form__body">
-            <input type="text" value={email} onChange={setEmail} className="default__input" placeholder="Add email address" />
+            <input type="text" value={email} onChange={e => setEmail(e.target.value)} className="default__input" placeholder="Add email address" />
           </div>
           <div>
             <button type="submit" className="primary__button">Notify me</button>
