@@ -1,17 +1,31 @@
 import React, { useState } from 'react';
 import "../index.css";
+import constants from "../constants";
 
 const ComingSoon = props => {
   const [email, setEmail] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const _ = await fetch(`${constants.FUNCTION_ENDPOINT}/saveEmail`, {
+      method: "POST",
+      body: JSON.stringify({ emailAddress: email }),
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json",
+      }
+    }).then(resp => resp.json());
+  }
 
   return (
     <section className="main__container">
       <main className="coming__soon">
         <h1 className="coming__soon__heading">Video content creation that is  fast, easy and simple.</h1>
         <h3 className="message">Get notified when we launch</h3>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="form__body">
-            <input type="text" value={email} onChange={e => setEmail(e.target.value)} className="default__input" placeholder="Add email address" />
+            <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="default__input" placeholder="Add email address" />
           </div>
           <div>
             <button type="submit" className="primary__button">Notify me</button>
