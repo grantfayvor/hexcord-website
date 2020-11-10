@@ -8,7 +8,7 @@ const ComingSoon = props => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const _ = await fetch(`${constants.FUNCTION_ENDPOINT}/api/saveEmail`, {
+    await fetch(`${constants.FUNCTION_ENDPOINT}/api/saveEmail`, {
       method: "POST",
       body: JSON.stringify({ emailAddress: email }),
       headers: {

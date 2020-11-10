@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ComingSoon from './coming_soon/Index';
 import Header from './header/Index';
