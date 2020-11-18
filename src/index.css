@@ -178,6 +178,10 @@ button {
 }
 
 @media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
   .main__header, .main__container {
     width: 94%;
     margin: 0 3%;

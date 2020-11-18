@@ -20,7 +20,8 @@ const ComingSoon = props => {
   return (
     <section className="main__container">
       <main className="coming__soon">
-        <h1 className="coming__soon__heading">Video content creation that is  fast, easy and simple.</h1>
+        <h1 className="coming__soon__heading" style={{ marginBottom: "20px" }}>Video content creation that is  fast, easy and simple.</h1>
+        <h3 className="message" style={{ marginTop: "0" }}>Install. Open Extension. Start Recording.</h3>
         <h3 className="message">Get notified when we launch</h3>
         <form onSubmit={handleSubmit}>
           <div className="form__body">
