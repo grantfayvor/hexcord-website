@@ -7,9 +7,11 @@ const ComingSoon = props => {
   const [email, setEmail] = useState("");
   const [modalInfo, setModalInfo] = useState();
   const [isSubscribed, setSubscribedState] = useState(false);
+  const [isButtonDisabled, shouldDisableButton] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    shouldDisableButton(true);
 
     try {
       const resp = await fetch(`${constants.FUNCTION_ENDPOINT}/api/saveEmail`, {
@@ -20,9 +22,10 @@ const ComingSoon = props => {
         }
       }).then(resp => resp.json());
 
-      if (!resp) throw new Error("An unknown error occurred. Please try again.");
+      if (!resp || resp?.error) throw new Error(resp?.error || "An unknown error occurred. Please try again.");
 
       setModalInfo({ message: "You have successfully signed up for Hexcord beta." });
+      shouldDisableButton(false);
       setSubscribedState(true);
     } catch (error) {
 
@@ -41,7 +44,7 @@ const ComingSoon = props => {
         }
       }).then(resp => resp.json());
 
-      if (!resp) throw new Error("An unknown error occurred. Please try again.");
+      if (!resp || resp?.error) throw new Error(resp?.error || "An unknown error occurred. Please try again.");
 
       setModalInfo({ message: "You have successfully unsubscribed from Hexcord beta. Sad to see you leave." });
       setSubscribedState(false);
@@ -82,10 +85,10 @@ const ComingSoon = props => {
               </>) :
               (<form onSubmit={handleSubmit}>
                 <div className="form__body">
-                  <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="default__input" placeholder="Add email address" />
+                  <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="default__input" placeholder="Add email address" required />
                 </div>
                 <div>
-                  <button type="submit" className="primary__button">Notify me</button>
+                  <button type="submit" disabled={isButtonDisabled} className="primary__button">Notify me</button>
                 </div>
               </form>)
           }
