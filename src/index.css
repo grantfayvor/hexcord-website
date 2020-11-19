@@ -31,33 +31,41 @@ button {
 }
 
 .main__header>.logo {
-  width: 93px;
-  height: 20px;
+  width: 5.8125rem;
+  height: 1.25rem;
 }
 
 .coming__soon {
-  width: 32.25rem;
+  width: 42.375rem;
   margin: auto;
 }
 
 .coming__soon__heading {
   font-weight: bold;
-  font-size: 3.08250625rem;
-  line-height: 3.6875rem;
-  color: #080708;
+  font-size: 2.625rem;
+  line-height: 3.125rem;
+  color: #0000FF;
 }
 
-.coming__soon>.message {
+.coming__soon>.bold__message {
   font-weight: bold;
-  font-size: 18.8381px;
-  line-height: 23px;
+  font-size: 1.17738125rem;
+  line-height: 1.4375rem;
   color: #000000;
-  margin-top: 65px;
+  margin-top: 2.625rem;
 }
 
 .coming__soon>form {
-  margin-top: 23px;
+  margin-top: 1.4375rem;
   width: 434px;
+}
+
+.coming__soon>p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #000000;
+  font-weight: normal;
+  margin-top: 2.625rem;
 }
 
 .default__input {
@@ -122,15 +130,15 @@ button {
   bottom: 0;
   left: 0;
   background: url(./logo_watermark.svg);
-  background-repeat: space;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  z-index: -9;
 }
 
 .main__footer {
   margin: 0 8.54%;
   width: 82.92%;
-  height: 50px;
   position: absolute;
   bottom: 0;
   padding-bottom: 50px;
@@ -171,9 +179,38 @@ button {
   float: right;
 }
 
+.link__button {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  color: #828282;
+  font-size: 16px;
+  line-height: 18px;
+}
+
 @media (min-width: 1800px) {
   html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2400px) {
+  html {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    height: 110px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main__container {
+    margin: 2% 8.54% 0;
   }
 }
 
@@ -181,37 +218,40 @@ button {
   html {
     font-size: 14px;
   }
-
   .main__header, .main__container {
     width: 94%;
     margin: 0 3%;
   }
-
   .coming__soon {
     width: 100%;
   }
-
+  .coming__soon__heading {
+    font-size: 1.854142857142857rem;
+  }
   .coming__soon>form {
     width: 100%;
   }
-
   .default__input {
     padding: 0 1%;
     width: 98%;
   }
-
+  .footer__container {
+    position: initial;
+    height: 60px;
+    margin-top: 60px;
+  }
   .main__footer {
     padding-bottom: 0px;
     width: 94%;
     margin: 0 3%;
     line-height: 5;
+    position: initial;
   }
-
   .coming__soon__heading {
     margin-top: 10px;
   }
-
   .timestamp {
     line-height: inherit;
+    height: 40px;
   }
 }
