@@ -74,6 +74,7 @@ button {
   border: 1px solid #6795FF;
   border-radius: 5px;
   padding: 0 20px;
+  background: #fafbff;
 }
 
 .default__input:active, .default__input:focus {
@@ -133,6 +134,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  background-position-y: bottom;
   z-index: -9;
 }
 
@@ -202,22 +204,22 @@ button {
   }
 }
 
+@media (max-width: 1600px) {
+  html {
+    font-size: 14px;
+  }
+  .main__container {
+    margin: 2% 8.54% 0;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer__container {
     height: 110px;
   }
 }
 
-@media (max-width: 800px) {
-  .main__container {
-    margin: 2% 8.54% 0;
-  }
-}
-
 @media (max-width: 600px) {
-  html {
-    font-size: 14px;
-  }
   .main__header, .main__container {
     width: 94%;
     margin: 0 3%;
@@ -244,7 +246,7 @@ button {
     padding-bottom: 0px;
     width: 94%;
     margin: 0 3%;
-    line-height: 5;
+    line-height: 4;
     position: initial;
   }
   .coming__soon__heading {
@@ -253,5 +255,11 @@ button {
   .timestamp {
     line-height: inherit;
     height: 40px;
+  }
+}
+
+@media (min-height: 800px) {
+  .footer__container {
+    position: absolute;
   }
 }
