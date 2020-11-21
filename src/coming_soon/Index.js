@@ -32,13 +32,11 @@ const ComingSoon = props => {
     }
   };
 
-  const unsubscribe = async (e) => {
-    e.preventDefault();
-
+  const unsubscribe = async (emailAddress = email) => {
     try {
       const resp = await fetch(`${constants.FUNCTION_ENDPOINT}/api/unsubscribeBeta`, {
         method: "PUT",
-        body: JSON.stringify({ emailAddress: email }),
+        body: JSON.stringify({ emailAddress }),
         headers: {
           "Content-Type": "application/json",
         }
@@ -58,6 +56,14 @@ const ComingSoon = props => {
       setTimeout(() => setModalInfo(undefined), 10000);
     }
   }, [modalInfo]);
+
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (/unsubscribe/i.test(urlParams.get("type"))) {
+      unsubscribe(urlParams.get("emailAddress"));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
@@ -81,7 +87,7 @@ const ComingSoon = props => {
             isSubscribed ?
               (<>
                 <p className="bold__message" style={{ color: "#219653" }}>You have successfully signed up for Hexcord beta. You'll be notified when it's available.</p>
-                <button type="button" className="link__button" onClick={unsubscribe}>Click here to Unsubcribe.</button>
+                <button type="button" className="link__button" onClick={() => unsubscribe(email)}>Click here to Unsubcribe.</button>
               </>) :
               (<form onSubmit={handleSubmit}>
                 <div className="form__body">
