@@ -4,9 +4,9 @@ const Privacy = () => {
   return (
     <section className="main__container">
       <main className="privacy__policy">
-        <h1 className="coming__soon__heading">Privacy Policy for Hex cord</h1>
+        <h1 className="coming__soon__heading">Privacy Policy for Hexcord</h1>
         <p className="privacy__policy__text">
-          At hexcord, accessible from https://www.hexcord.com/, one of our main
+          At hexcord, accessible from <a href="https://www.hexcord.com">https://www.hexcord.com</a>, one of our main
           priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
           by hexcord and how we use it.
