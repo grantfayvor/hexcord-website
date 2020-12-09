@@ -40,6 +40,19 @@ button {
   margin: auto;
 }
 
+.privacy__policy {
+  width: 80%;
+  margin: auto;
+}
+
+.privacy__policy__text {
+    font-size: 16px;
+}
+
+.privacy__policy__header{
+  font-size: 24px;
+}
+
 .coming__soon__heading {
   font-weight: bold;
   font-size: 2.625rem;
@@ -257,6 +270,8 @@ button {
     height: 40px;
   }
 }
+
+
 
 @media (min-height: 800px) {
   .footer__container {
