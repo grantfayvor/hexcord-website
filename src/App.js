@@ -15,7 +15,7 @@ function App() {
           <ComingSoon />
           <Footer />
         </Route>
-        <Route path="/privacy_policy" exact>
+        <Route path="/privacy-policy" exact>
           <Header />
           <Privacy />
           <Footer />
