@@ -18,7 +18,7 @@ function App() {
         <Route path="/privacy-policy" exact>
           <Header />
           <Privacy />
-          <Footer />
+          <Footer allowScroll />
         </Route>
       </Switch>
     </BrowserRouter>

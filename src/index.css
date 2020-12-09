@@ -157,6 +157,8 @@ button {
   position: absolute;
   bottom: 0;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main__footer>.socials {
@@ -203,6 +205,10 @@ button {
   color: #828282;
   font-size: 16px;
   line-height: 18px;
+}
+
+.relative_position {
+  position: relative!important;
 }
 
 @media (min-width: 1800px) {
@@ -268,6 +274,9 @@ button {
   .timestamp {
     line-height: inherit;
     height: 40px;
+  }
+  .main__footer>div:nth-child(2) {
+    display: none;
   }
 }
 
