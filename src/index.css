@@ -46,10 +46,10 @@ button {
 }
 
 .privacy__policy__text {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.privacy__policy__header{
+.privacy__policy__header {
   font-size: 24px;
 }
 
@@ -60,11 +60,11 @@ button {
   color: #0000FF;
 }
 
-.coming__soon>.bold__message {
+.bold__message {
   font-weight: bold;
   font-size: 1.17738125rem;
   line-height: 1.4375rem;
-  color: #000000;
+  color: #080708;
   margin-top: 2.625rem;
 }
 
@@ -125,12 +125,18 @@ button {
 }
 
 .primary__button {
-  width: 104.72px;
-  height: 40px;
+  width: 255px;
+  height: 50px;
   border: 0px;
   background: #FA4343;
   color: #FFFFFF;
   border-radius: 4px;
+}
+
+a.primary__button {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 2.5;
 }
 
 .primary__button:active, .primary__button:focus {
@@ -279,8 +285,6 @@ button {
     display: none;
   }
 }
-
-
 
 @media (min-height: 800px) {
   .footer__container {
