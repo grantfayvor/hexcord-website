@@ -54,7 +54,7 @@ const TermsAndCondition = () => {
           You must not:
         </p>
 
-        <ul className="regular_16">
+        <ul className="regular_16 list-disc list-inside my-6">
           <li>Republish material from Hexcord</li>
           <li>Sell, rent or sub-license material from Hexcord</li>
           <li>Reproduce, duplicate or copy material from Hexcord</li>
@@ -77,10 +77,10 @@ const TermsAndCondition = () => {
           Comments on this website. Hexcord reserves the right to monitor all
           Comments and to remove any Comments which can be considered
           inappropriate, offensive or causes breach of these Terms and
-          Conditions. You warrant and represent that:
+          Conditions. <br /> You warrant and represent that:
         </p>
 
-        <ul className="regular_16">
+        <ul className="regular_16 list-disc list-inside my-6">
           <li>
             You are entitled to post the Comments on our website and have all
             necessary licenses and consents to do so;
@@ -115,7 +115,7 @@ const TermsAndCondition = () => {
           written approval
         </p>
 
-        <ul className="regular_16">
+        <ul className="regular_16 list-disc list-inside my-6">
           <li>Government agencies</li>
           <li>Search engines;</li>
           <li>News organizations;</li>
@@ -140,7 +140,7 @@ const TermsAndCondition = () => {
           <br /> We may consider and approve other link requests from the
           following types of organizations:
         </p>
-        <ul className="regular_16">
+        <ul className="regular_16 list-disc list-inside my-6">
           <li>commonly-known consumer and/or business information sources;</li>
           <li>dot.com community sites;</li>
           <li>associations or other groups representing charities;</li>
@@ -166,9 +166,9 @@ const TermsAndCondition = () => {
           information as well as the URL of your site, a list of any URLs from
           which you intend to link to our Website, and a list of the URLs on our
           site to which you would like to link. Wait 2-3 weeks for a response.
-          Approved organizations may hyperlink to our Website as follows:
+         <br /> Approved organizations may hyperlink to our Website as follows:
         </p>
-        <ul className="regular_16">
+        <ul className="regular_16 list-disc list-inside my-6">
           <li>By use of our corporate name; or</li>
           <li>By use of the uniform resource locator being linked to; or</li>
           <li>
@@ -189,7 +189,7 @@ const TermsAndCondition = () => {
           frames around our Webpages that alter in any way the visual
           presentation or appearance of our Website.
         </p>
-        <h2>Content Liability</h2>
+        <h2 className="privacy__policy__header mt-10">Content Liability</h2>
         <p className="regular_16">
           We shall not be hold responsible for any content that appears on your
           Website. You agree to protect and defend us against all claims that is
@@ -199,7 +199,7 @@ const TermsAndCondition = () => {
           violation of, any third party rights.
         </p>
         <h2 className="privacy__policy__header mt-10">Your Privacy</h2>
-        <p>Please read Privacy Policy</p>
+        <p className="regular_16">Please read <a href="/privacy_policy" className="text-primary">Privacy Policy</a></p>
 
         <h2 className="privacy__policy__header mt-10">Reservation of Rights</h2>
         <p className="regular_16"> 
@@ -226,7 +226,7 @@ const TermsAndCondition = () => {
           representations, warranties and conditions relating to our website and
           the use of this website. Nothing in this disclaimer will:
         </p>
-        <ul className="regular_16">
+        <ul className="regular_16 list-disc list-inside my-6">
           <li>
             limit or exclude our or your liability for death or personal injury;
           </li>
