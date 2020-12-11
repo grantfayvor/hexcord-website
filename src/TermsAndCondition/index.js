@@ -1,7 +1,7 @@
 import React from "react";
 import { BackButton } from "../components/Button";
 
-const TermsAndCondition = () => {
+const TermsAndCondition = (props) => {
   return (
     <section className="main__container py-10">
       <main className="privacy__policy">

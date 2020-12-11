@@ -1,9 +1,11 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
+import { withRouter } from 'react-router-dom';
 
-const BackButton = (props) => {
+const BackButton = ({history}) => {
   return (
     <div
+    onClick={() => history.goBack()}
       className="regular_16 flex items-center pb-20"
     >
       <IoIosArrowBack style={{ marginRight: 20 }} />
@@ -12,4 +14,4 @@ const BackButton = (props) => {
   );
 };
 
-export default BackButton;
+export default withRouter(BackButton);
