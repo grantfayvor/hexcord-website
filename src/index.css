@@ -1,3 +1,8 @@
+@import "./styles/typography.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
   font-size: 16px;
 }
@@ -148,7 +153,7 @@ button {
   background-position: center;
   background-size: contain;
   background-position-y: bottom;
-  z-index: -9;
+  /* z-index: -9; */
 }
 
 .main__footer {

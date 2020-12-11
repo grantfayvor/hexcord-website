@@ -5,6 +5,8 @@ import ComingSoon from "./coming_soon/Index";
 import Header from "./header/Index";
 import Footer from "./footer/Index";
 import Privacy from './privacy'
+import NavBar from "./components/NavBar/NavBar";
+import TermsAndCondition from "./TermsAndCondition";
 
 function App() {
   return (
@@ -16,9 +18,12 @@ function App() {
           <Footer />
         </Route>
         <Route path="/privacy_policy" exact>
-          <Header />
+          <NavBar />
           <Privacy />
-          <Footer />
+        </Route>
+        <Route path="/terms_condition" exact>
+          <NavBar />
+          <TermsAndCondition />
         </Route>
       </Switch>
     </BrowserRouter>
