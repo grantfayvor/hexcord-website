@@ -7,6 +7,9 @@ module.exports = {
         primary: "#0000FF",
         secondary: "#FA4343",
         dark: "#080708",
+        faux:{
+          alice: "#F0F0FF"
+        }
       },
     },
   },

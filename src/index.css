@@ -10,21 +10,23 @@ html {
 
 body {
   margin: 0;
-  font-family: Lato, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #FAFBFF;
+  background: #fafbff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 button {
   cursor: pointer;
 }
-
 
 .main__container {
   margin: 4% 8.54% 0;
@@ -37,7 +39,7 @@ button {
   line-height: 5;
 }
 
-.main__header>.logo {
+.main__header > .logo {
   width: 5.8125rem;
   height: 1.25rem;
 }
@@ -64,7 +66,7 @@ button {
   font-weight: bold;
   font-size: 2.625rem;
   line-height: 3.125rem;
-  color: #0000FF;
+  color: #0000ff;
 }
 
 .bold__message {
@@ -75,12 +77,12 @@ button {
   margin-top: 2.625rem;
 }
 
-.coming__soon>form {
+.coming__soon > form {
   margin-top: 1.4375rem;
   width: 434px;
 }
 
-.coming__soon>p {
+.coming__soon > p {
   font-size: 1rem;
   line-height: 1.625rem;
   color: #000000;
@@ -91,19 +93,20 @@ button {
 .default__input {
   width: 100%;
   height: 50px;
-  border: 1px solid #6795FF;
+  border: 1px solid #6795ff;
   border-radius: 5px;
   padding: 0 20px;
   background: #fafbff;
 }
 
-.default__input:active, .default__input:focus {
+.default__input:active,
+.default__input:focus {
   outline: none;
 }
 
 .default__input::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #6795FF;
+  color: #6795ff;
   font-weight: bold;
   font-size: 12px;
   line-height: 20px;
@@ -113,7 +116,7 @@ button {
 
 .default__input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #6795FF;
+  color: #6795ff;
   font-weight: bold;
   font-size: 12px;
   line-height: 20px;
@@ -121,7 +124,7 @@ button {
 
 .default__input::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #6795FF;
+  color: #6795ff;
   font-weight: bold;
   font-size: 12px;
   line-height: 20px;
@@ -135,8 +138,8 @@ button {
   width: 255px;
   height: 50px;
   border: 0px;
-  background: #FA4343;
-  color: #FFFFFF;
+  background: #fa4343;
+  color: #ffffff;
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -151,7 +154,8 @@ a.primary__button {
   line-height: 2.5;
 }
 
-.primary__button:active, .primary__button:focus {
+.primary__button:active,
+.primary__button:focus {
   outline: none;
 }
 
@@ -169,6 +173,18 @@ a.primary__button {
   /* z-index: -9; */
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  background-color: #f0f0ff;
+}
+
+.hr {
+  border-bottom: 1px solid #bed1ff;
+}
+
 .main__footer {
   margin: 0 8.54%;
   width: 82.92%;
@@ -179,7 +195,7 @@ a.primary__button {
   justify-content: space-between;
 }
 
-.main__footer>.socials {
+.main__footer > .socials {
   width: 92px;
   height: 22px;
   display: inline-block;
@@ -226,7 +242,7 @@ a.primary__button {
 }
 
 .relative_position {
-  position: relative!important;
+  position: relative !important;
 }
 
 @media (min-width: 1800px) {
@@ -257,7 +273,8 @@ a.primary__button {
 }
 
 @media (max-width: 600px) {
-  .main__header, .main__container {
+  .main__header,
+  .main__container {
     width: 94%;
     margin: 0 3%;
   }
@@ -267,7 +284,7 @@ a.primary__button {
   .coming__soon__heading {
     font-size: 1.854142857142857rem;
   }
-  .coming__soon>form {
+  .coming__soon > form {
     width: 100%;
   }
   .default__input {
@@ -293,7 +310,7 @@ a.primary__button {
     line-height: inherit;
     height: 40px;
   }
-  .main__footer>div:nth-child(2) {
+  .main__footer > div:nth-child(2) {
     display: none;
   }
 }

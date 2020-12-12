@@ -8,7 +8,7 @@ const NavBar = () => {
     <Fragment>
       <nav>
         <div style={{marginLeft: 200}}>
-          <a>
+          <a href="/">
             <img src={logo} />
           </a>
         </div>
