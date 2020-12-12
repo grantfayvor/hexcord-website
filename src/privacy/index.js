@@ -5,11 +5,11 @@ const Privacy = () => {
   return (
     <section className="main__container py-10">
       <main className="privacy__policy">
-      <BackButton />
+        <BackButton />
         <h1 className="bold_41 text-center my-14">Privacy Policy for Hex cord</h1>
         <h2 className="privacy__policy__header">Introduction</h2>
         <p className="regular_16">
-          At hexcord, accessible from https://www.hexcord.com/, one of our main
+          At hexcord, accessible from <a href="https://www.hexcord.com">https://www.hexcord.com</a>, one of our main
           priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
           by hexcord and how we use it.
