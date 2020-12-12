@@ -53,10 +53,10 @@ button {
 }
 
 .privacy__policy__text {
-    font-size: 16px;
+  font-size: 16px;
 }
 
-.privacy__policy__header{
+.privacy__policy__header {
   font-size: 24px;
 }
 
@@ -67,11 +67,11 @@ button {
   color: #0000FF;
 }
 
-.coming__soon>.bold__message {
+.bold__message {
   font-weight: bold;
   font-size: 1.17738125rem;
   line-height: 1.4375rem;
-  color: #000000;
+  color: #080708;
   margin-top: 2.625rem;
 }
 
@@ -132,12 +132,23 @@ button {
 }
 
 .primary__button {
-  width: 104.72px;
-  height: 40px;
+  width: 255px;
+  height: 50px;
   border: 0px;
   background: #FA4343;
   color: #FFFFFF;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.primary__button {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5;
 }
 
 .primary__button:active, .primary__button:focus {
@@ -164,6 +175,8 @@ button {
   position: absolute;
   bottom: 0;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main__footer>.socials {
@@ -210,6 +223,10 @@ button {
   color: #828282;
   font-size: 16px;
   line-height: 18px;
+}
+
+.relative_position {
+  position: relative!important;
 }
 
 @media (min-width: 1800px) {
@@ -276,9 +293,10 @@ button {
     line-height: inherit;
     height: 40px;
   }
+  .main__footer>div:nth-child(2) {
+    display: none;
+  }
 }
-
-
 
 @media (min-height: 800px) {
   .footer__container {

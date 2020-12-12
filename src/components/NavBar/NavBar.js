@@ -12,9 +12,9 @@ const NavBar = () => {
             <img src={logo} />
           </a>
         </div>
-        <div style={{marginRight: 200}}>
+        <div className="flex items-center" style={{marginRight: 200}}>
           <a className="link">Sign Up</a>
-          <Button style={{width: 400}}>Add to Chrome</Button>
+          <a href="https://chrome.google.com/webstore/detail/hexcord/apkdlkpcghonmghkbkhhjpaemnmjahgi" className="primary__button">Add to Chrome</a>
         </div>
       </nav>
     </Fragment>
