@@ -1,4 +1,4 @@
-@import "./styles/typography.css";
+@import "./typography.css";
 html {
   font-size: 16px;
 }
@@ -150,7 +150,7 @@ a.primary__button {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url(./logo_watermark.svg);
+  background: url(../assets/logo_watermark.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -200,14 +200,14 @@ a.primary__button {
 }
 
 .twitter {
-  background: url(./twitter_logo.svg);
+  background: url(../assets/twitter_logo.svg);
   display: inline-block;
   width: 27px;
   height: 23px;
 }
 
 .email {
-  background: url(./email_logo.svg);
+  background: url(../assets/email_logo.svg);
   display: inline-block;
   width: 29px;
   height: 24px;

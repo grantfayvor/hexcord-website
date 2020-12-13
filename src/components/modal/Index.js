@@ -1,5 +1,5 @@
 import React from 'react';
-import checkmark from '../checkmark.svg';
+import checkmark from '../../assets/checkmark.svg';
 import './style.css';
 
 const Modal = ({ message = "", closeModal }) => {

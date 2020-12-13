@@ -1,14 +1,13 @@
 import React from "react";
-import "./App.css";
-import "./index.css";
+import "./styles/App.css";
+import "./styles/index.css";
 import { Switch, BrowserRouter, Route } from "react-router-dom";
-import CommingSoonFooter from "./footer/Index";
 import NavBar from "./components/NavBar/NavBar";
 import TermsAndCondition from "./pages/TermsAndCondition";
 import Home from "./pages/Home";
 import Privacy from "./pages/Privacy";
 import ComingSoon from "./pages/Coming_soon";
-import Footer from './components/footer'
+import Footer, { CommingSoonFooter } from './components/footer'
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import logo from "../../logo.svg";
+import logo from "../../assets/logo.svg";
 import { NavLink } from "react-router-dom";
 
 const NavBar = ({ onlyLogo = false }) => {

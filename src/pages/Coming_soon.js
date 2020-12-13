@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "../index.css";
 import constants from "../constants";
-import Modal from '../modal/Index';
-import Loader from '../loader/Index';
+import Modal from '../components/modal/Index';
+import Loader from '../components/loader/Index';
 
 const ComingSoon = props => {
   const [email, setEmail] = useState("");
