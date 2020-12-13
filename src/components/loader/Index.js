@@ -1,7 +1,7 @@
 import React from "react";
 import "./loader.css";
 
-export default () => {
+const Loader = () => {
   return (
     <div className="progress__container">
       <div className="progress__spinner"></div>
@@ -9,3 +9,5 @@ export default () => {
     </div>
   );
 };
+
+export default Loader;
