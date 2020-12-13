@@ -1,0 +1,61 @@
+
+
+.small_text_13 {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+
+.bold_12 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+.bold_15 {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+.bold_16 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.bold_41 {
+  font-weight: bold;
+  font-size: 41.89px;
+  line-height: 26px;
+}
+
+
+.regular_12 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+.regular_16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #333333;
+
+}
+
+
+.hyperlink {
+  font-family: Lato;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-decoration-line: underline;
+}
