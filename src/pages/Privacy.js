@@ -3,10 +3,18 @@ import { BackButton } from "../components/Button";
 
 const Privacy = () => {
   return (
-    <section className="main__container py-10">
+    <section
+      className="main__container "
+      style={{ paddingTop: 10, paddingBottom: 10 }}
+    >
       <main className="privacy__policy">
-      <BackButton />
-        <h1 className="bold_41 text-center my-14">Privacy Policy for Hex cord</h1>
+        <BackButton />
+        <h1
+          className="bold_41 text-center"
+          style={{ marginTop: 14, marginBottom: 14 }}
+        >
+          Privacy Policy for Hex cord
+        </h1>
         <h2 className="privacy__policy__header">Introduction</h2>
         <p className="regular_16">
           At hexcord, accessible from https://www.hexcord.com/, one of our main
@@ -26,22 +34,26 @@ const Privacy = () => {
           Our Privacy Policy was created with the help of the{" "}
           <a href="https://www.privacypolicygenerator.info">
             Privacy Policy Generator
-          </a>{" "}
-          and the{" "}
+          </a>
+          and the
           <a href="https://www.privacypolicyonline.com">
             Free Privacy Policy Generator
           </a>
           .
         </p>
 
-        <h2 className="privacy__policy__header mt-10">Consent</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Consent
+        </h2>
 
         <p className="regular_16">
           By using our website, you hereby consent to our Privacy Policy and
           agree to its terms.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">Information we collect</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Information we collect
+        </h2>
 
         <p className="regular_16">
           The personal information that you are asked to provide, and the
@@ -60,7 +72,9 @@ const Privacy = () => {
           email address, and telephone number.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">How we use your information</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          How we use your information
+        </h2>
 
         <p className="regular_16">
           We use the information we collect in various ways, including to:
@@ -81,7 +95,9 @@ const Privacy = () => {
           <li>Find and prevent fraud</li>
         </ul>
 
-        <h2 className="privacy__policy__header mt-10">Log Files</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Log Files
+        </h2>
 
         <p className="regular_16">
           hexcord follows a standard procedure of using log files. These files
@@ -95,7 +111,7 @@ const Privacy = () => {
           users' movement on the website, and gathering demographic information.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">
+        <h2 className="privacy__policy__header " style={{ marginTop: 15 }}>
           Advertising Partners Privacy Policies
         </h2>
 
@@ -119,14 +135,16 @@ const Privacy = () => {
           are used by third-party advertisers.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">Third Party Privacy Policies</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Third Party Privacy Policies
+        </h2>
 
         <p className="regular_16">
           hexcord's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
           information. It may include their practices and instructions about how
-          to opt-out of certain options.{" "}
+          to opt-out of certain options.
         </p>
 
         <p className="regular_16">
@@ -136,7 +154,7 @@ const Privacy = () => {
           respective websites.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
           CCPA Privacy Rights (Do Not Sell My Personal Information)
         </h2>
 
@@ -162,7 +180,9 @@ const Privacy = () => {
           would like to exercise any of these rights, please contact us.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">GDPR Data Protection Rights</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          GDPR Data Protection Rights
+        </h2>
 
         <p className="regular_16">
           We would like to make sure you are fully aware of all of your data
@@ -201,7 +221,9 @@ const Privacy = () => {
           would like to exercise any of these rights, please contact us.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">Children's Information</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Children's Information
+        </h2>
 
         <p className="regular_16">
           Another part of our priority is adding protection for children while

@@ -3,14 +3,28 @@ import { BackButton } from "../components/Button";
 
 const TermsAndCondition = (props) => {
   return (
-    <section className="main__container py-10">
+    <section
+      className="main__container"
+      style={{ paddingTop: 10, paddingBottom: 10 }}
+    >
       <main className="privacy__policy">
         <BackButton />
-        <h1 className="bold_41 text-center my-14">Terms & Conditions</h1>
-        <h2 className="privacy__policy__header">Introduction</h2>
+        <h1
+          className="bold_41 text-center"
+          style={{ marginTop: 14, marginBottom: 14 }}
+        >
+          Terms & Conditions
+        </h1>
+        <h2
+          className="privacy__policy__header"
+          style={{ marginTop: 14, marginBottom: 14 }}
+        >
+          Introduction
+        </h2>
         <p className="regular_16">
           Welcome to Hexcord!
-          <br /> These terms and conditions outline the rules and regulations for the use of Hexcord's Website, located at hexcord.com.
+          <br /> These terms and conditions outline the rules and regulations
+          for the use of Hexcord's Website, located at hexcord.com.
           <br />
           By accessing this website we assume you accept these terms and
           conditions. Do not continue to use Hexcord if you do not agree to take
@@ -30,7 +44,9 @@ const TermsAndCondition = (props) => {
           capitalization and/or he/she or they, are taken as interchangeable and
           therefore as referring to same.
         </p>
-        <h2 className="privacy__policy__header mt-10">Cookies</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Cookies
+        </h2>
 
         <p className="regular_16">
           We employ the use of cookies. By accessing Hexcord, you agreed to use
@@ -42,7 +58,9 @@ const TermsAndCondition = (props) => {
           cookies.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">License</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          License
+        </h2>
 
         <p className="regular_16">
           Unless otherwise stated, Hexcord and/or its licensors own the
@@ -54,7 +72,10 @@ const TermsAndCondition = (props) => {
           You must not:
         </p>
 
-        <ul className="regular_16 list-disc list-inside my-6">
+        <ul
+          className="regular_16 "
+          style={{ listStyle: "inside", marginTop: 10, marginBottom: 10 }}
+        >
           <li>Republish material from Hexcord</li>
           <li>Sell, rent or sub-license material from Hexcord</li>
           <li>Reproduce, duplicate or copy material from Hexcord</li>
@@ -80,7 +101,10 @@ const TermsAndCondition = (props) => {
           Conditions. <br /> You warrant and represent that:
         </p>
 
-        <ul className="regular_16 list-disc list-inside my-6">
+        <ul
+          className="regular_16 "
+          style={{ listStyle: "inside", marginTop: 10, marginBottom: 10 }}
+        >
           <li>
             You are entitled to post the Comments on our website and have all
             necessary licenses and consents to do so;
@@ -106,7 +130,7 @@ const TermsAndCondition = (props) => {
           edit and authorize others to use, reproduce and edit any of your
           Comments in any and all forms, formats or media.
         </p>
-        <h2 className="privacy__policy__header mt-10">
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
           Hyperlinking to our Content
         </h2>
 
@@ -115,7 +139,10 @@ const TermsAndCondition = (props) => {
           written approval
         </p>
 
-        <ul className="regular_16 list-disc list-inside my-6">
+        <ul
+          className="regular_16"
+          style={{ listStyle: "inside", marginTop: 10, marginBottom: 10 }}
+        >
           <li>Government agencies</li>
           <li>Search engines;</li>
           <li>News organizations;</li>
@@ -140,7 +167,10 @@ const TermsAndCondition = (props) => {
           <br /> We may consider and approve other link requests from the
           following types of organizations:
         </p>
-        <ul className="regular_16 list-disc list-inside my-6">
+        <ul
+          className="regular_16"
+          style={{ listStyle: "inside", marginTop: 10, marginBottom: 10 }}
+        >
           <li>commonly-known consumer and/or business information sources;</li>
           <li>dot.com community sites;</li>
           <li>associations or other groups representing charities;</li>
@@ -166,9 +196,12 @@ const TermsAndCondition = (props) => {
           information as well as the URL of your site, a list of any URLs from
           which you intend to link to our Website, and a list of the URLs on our
           site to which you would like to link. Wait 2-3 weeks for a response.
-         <br /> Approved organizations may hyperlink to our Website as follows:
+          <br /> Approved organizations may hyperlink to our Website as follows:
         </p>
-        <ul className="regular_16 list-disc list-inside my-6">
+        <ul
+          className="regular_16 "
+          style={{ listStyle: "inside", marginTop: 10, marginBottom: 10 }}
+        >
           <li>By use of our corporate name; or</li>
           <li>By use of the uniform resource locator being linked to; or</li>
           <li>
@@ -183,7 +216,9 @@ const TermsAndCondition = (props) => {
           absent a trademark license agreement.
         </p>
 
-        <h2 className="privacy__policy__header mt-10">iFrames</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          iFrames
+        </h2>
         <p className="regular_16">
           Without prior approval and written permission, you may not create
           frames around our Webpages that alter in any way the visual
@@ -198,11 +233,20 @@ const TermsAndCondition = (props) => {
           infringes, otherwise violates, or advocates the infringement or other
           violation of, any third party rights.
         </p>
-        <h2 className="privacy__policy__header mt-10">Your Privacy</h2>
-        <p className="regular_16">Please read <a href="/privacy_policy" className="text-primary">Privacy Policy</a></p>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Your Privacy
+        </h2>
+        <p className="regular_16">
+          Please read{" "}
+          <a href="/privacy_policy" className="text-primary">
+            Privacy Policy
+          </a>
+        </p>
 
-        <h2 className="privacy__policy__header mt-10">Reservation of Rights</h2>
-        <p className="regular_16"> 
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Reservation of Rights
+        </h2>
+        <p className="regular_16">
           We reserve the right to request that you remove all links or any
           particular link to our Website. You approve to immediately remove all
           links to our Website upon request. We also reserve the right to amen
@@ -220,13 +264,18 @@ const TermsAndCondition = (props) => {
           nor do we promise to ensure that the website remains available or that
           the material on the website is kept up to date.
         </p>
-        <h2 className="privacy__policy__header mt-10">Disclaimer</h2>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Disclaimer
+        </h2>
         <p className="regular_16">
           To the maximum extent permitted by applicable law, we exclude all
           representations, warranties and conditions relating to our website and
           the use of this website. Nothing in this disclaimer will:
         </p>
-        <ul className="regular_16 list-disc list-inside my-6">
+        <ul
+          className="regular_16"
+          style={{ listStyle: "inside", marginTop: 10, marginBottom: 10 }}
+        >
           <li>
             limit or exclude our or your liability for death or personal injury;
           </li>
