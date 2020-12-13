@@ -1,5 +1,4 @@
 import React from "react";
-import { IoIosArrowBack } from "react-icons/io";
 import { withRouter } from "react-router-dom";
 import backIcon from '../../assets/back.svg'
 
