@@ -1,34 +1,19 @@
 @import "./styles/typography.css";
-
 html {
   font-size: 16px;
 }
 
 body {
   margin: 0;
-  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #fafbff;
 }
 
-
-a{
-  text-decoration: none;
-  color: #080708;
-}
-
-button{
-  background-color: transparent;
-  border: none;
-}
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 button {
@@ -46,7 +31,7 @@ button {
   line-height: 5;
 }
 
-.main__header > .logo {
+.logo {
   width: 5.8125rem;
   height: 1.25rem;
 }
@@ -56,17 +41,12 @@ button {
   margin: auto;
 }
 
-.privacy__policy {
-  width: 80%;
-  margin: auto;
-}
-
 .privacy__policy__text {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .privacy__policy__header {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .coming__soon__heading {
@@ -84,12 +64,12 @@ button {
   margin-top: 2.625rem;
 }
 
-.coming__soon > form {
+.coming__soon>form {
   margin-top: 1.4375rem;
   width: 434px;
 }
 
-.coming__soon > p {
+.coming__soon>p {
   font-size: 1rem;
   line-height: 1.625rem;
   color: #000000;
@@ -106,8 +86,7 @@ button {
   background: #fafbff;
 }
 
-.default__input:active,
-.default__input:focus {
+.default__input:active, .default__input:focus {
   outline: none;
 }
 
@@ -161,8 +140,7 @@ a.primary__button {
   line-height: 2.5;
 }
 
-.primary__button:active,
-.primary__button:focus {
+.primary__button:active, .primary__button:focus {
   outline: none;
 }
 
@@ -188,8 +166,15 @@ a.primary__button {
   background-color: #f0f0ff;
 }
 
-.hr {
+.footer>section:first-of-type {
   border-bottom: 1px solid #bed1ff;
+}
+
+.footer>section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .main__footer {
@@ -202,7 +187,7 @@ a.primary__button {
   justify-content: space-between;
 }
 
-.main__footer > .socials {
+.main__footer>.socials {
   width: 92px;
   height: 22px;
   display: inline-block;
@@ -252,6 +237,17 @@ a.primary__button {
   position: relative !important;
 }
 
+.boring__link {
+  text-decoration: none;
+}
+
+.boring__button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
 @media (min-width: 1800px) {
   html {
     font-size: 18px;
@@ -280,8 +276,7 @@ a.primary__button {
 }
 
 @media (max-width: 600px) {
-  .main__header,
-  .main__container {
+  .main__header, .main__container {
     width: 94%;
     margin: 0 3%;
   }
@@ -291,7 +286,7 @@ a.primary__button {
   .coming__soon__heading {
     font-size: 1.854142857142857rem;
   }
-  .coming__soon > form {
+  .coming__soon>form {
     width: 100%;
   }
   .default__input {
@@ -317,7 +312,7 @@ a.primary__button {
     line-height: inherit;
     height: 40px;
   }
-  .main__footer > div:nth-child(2) {
+  .main__footer>div:nth-child(2) {
     display: none;
   }
 }

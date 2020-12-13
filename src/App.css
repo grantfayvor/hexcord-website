@@ -74,6 +74,14 @@
   margin-bottom: 120px;
 }
 
+.footer__links {
+  color: #080708;
+}
+
+.footer__links:not(:last-of-type) {
+  margin-right: 60px;
+}
+
 @media screen and (max-width: 600px) {
   .description__sub__section {
     flex-direction: column;
@@ -92,5 +100,8 @@
   }
   .userflow__presentation {
     height: 300px;
+  }
+  .footer__links:not(:last-of-type) {
+    margin-right: 10px;
   }
 }

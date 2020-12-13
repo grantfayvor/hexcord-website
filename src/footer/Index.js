@@ -12,14 +12,14 @@ const Footer = props => {
           <a href="mailto:thehexcord@gmail.com" style={{ float: "right" }} className="icon__button"><span className="email"></span></a>
         </div>
         <div>
-          <NavLink to="/privacy-policy">Privacy Policy</NavLink>
+          <NavLink to="/privacy-policy" className="boring__link">Privacy Policy</NavLink>
         </div>
         <div className="timestamp">
           {date.toLocaleDateString()}
         </div>
       </footer>
     </aside>
-  )
-}
+  );
+};
 
 export default Footer;

@@ -1,5 +1,6 @@
 import React from "react";
 import { BackButton } from "../components/Button";
+import { NavLink } from "react-router-dom";
 
 const TermsAndCondition = (props) => {
   return (
@@ -238,9 +239,9 @@ const TermsAndCondition = (props) => {
         </h2>
         <p className="regular_16">
           Please read{" "}
-          <a href="/privacy_policy" className="text-primary">
+          <NavLink to="/privacy-policy" className="text-primary">
             Privacy Policy
-          </a>
+          </NavLink>
         </p>
 
         <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
@@ -254,7 +255,7 @@ const TermsAndCondition = (props) => {
           continuously linking to our Website, you agree to be bound to and
           follow these linking terms and conditions.
         </p>
-        <h>Removal of Links from our Website</h>
+        <h2>Removal of Links from our Website</h2>
         <p className="regular_16">
           If you find any link on our Website that is offensive for any reason,
           you are free to contact and inform us any moment. We will consider

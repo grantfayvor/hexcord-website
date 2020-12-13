@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import "./index.css";
 import { Switch, BrowserRouter, Route } from "react-router-dom";
-import Header from "./header/Index";
 import CommingSoonFooter from "./footer/Index";
 import NavBar from "./components/NavBar/NavBar";
 import TermsAndCondition from "./pages/TermsAndCondition";
@@ -16,21 +15,21 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact>
-          <Header />
+          <NavBar />
           <Home />
           <Footer />
         </Route>
         <Route path="/coming-soon" exact>
-          <Header />
+          <NavBar onlyLogo />
           <ComingSoon />
           <CommingSoonFooter />
         </Route>
-        <Route path="/privacy_policy" exact>
+        <Route path="/privacy-policy" exact>
           <NavBar />
           <Privacy />
           <Footer />
         </Route>
-        <Route path="/terms_condition" exact>
+        <Route path="/terms-condition" exact>
           <NavBar />
           <TermsAndCondition />
           <Footer allowScroll />
