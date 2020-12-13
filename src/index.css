@@ -21,6 +21,11 @@ a{
   color: #080708;
 }
 
+button{
+  background-color: transparent;
+  border: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

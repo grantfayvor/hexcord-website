@@ -10,8 +10,8 @@ const TermsAndCondition = (props) => {
       <main className="privacy__policy">
         <BackButton />
         <h1
-          className="bold_41 text-center"
-          style={{ marginTop: 14, marginBottom: 14 }}
+          className="bold_41"
+          style={{ marginTop: 14, marginBottom: 14, textAlign: "center"}}
         >
           Terms & Conditions
         </h1>
