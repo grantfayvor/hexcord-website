@@ -32,7 +32,7 @@ const Home = () => {
           </h3>
           <a
             href="https://chrome.google.com/webstore/detail/hexcord/apkdlkpcghonmghkbkhhjpaemnmjahgi"
-            className="primary__button"
+            className="primary__button chrome__button"
           >
             Add to Chrome
           </a>
@@ -102,7 +102,7 @@ const Home = () => {
           </h3>
           <a
             href="https://chrome.google.com/webstore/detail/hexcord/apkdlkpcghonmghkbkhhjpaemnmjahgi"
-            className="primary__button my-10"
+            className="primary__button chrome__button"
           >
             Add to Chrome
           </a>

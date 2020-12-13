@@ -18,7 +18,7 @@ const NavBar = ({ onlyLogo = false }) => {
               <NavLink to="/coming-soon" className="link boring__link">Beta Sign Up</NavLink>
               <a
                 href="https://chrome.google.com/webstore/detail/hexcord/apkdlkpcghonmghkbkhhjpaemnmjahgi"
-                className="primary__button navbar__add__to__chrome"
+                className="primary__button navbar__add__to__chrome chrome__button"
               >
                 Add to Chrome
           </a>
