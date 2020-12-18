@@ -25,10 +25,10 @@ button {
 }
 
 .main__header {
-  margin: 0 8.54%;
-  height: 80px;
+  padding: 0 8.54%;
   width: 82.92%;
   line-height: 5;
+  background: #FFFFFF;
 }
 
 .logo {
@@ -166,8 +166,12 @@ a.primary__button {
   background-color: #f0f0ff;
 }
 
-.footer>section:first-of-type {
-  border-bottom: 1px solid #bed1ff;
+.footer__divider {
+  height: 1px;
+  background: #bed1ff;
+  width: 77%;
+  padding: 0;
+  border: none;
 }
 
 .footer>section {
@@ -279,6 +283,9 @@ a.primary__button {
   .main__header, .main__container {
     width: 94%;
     margin: 0 3%;
+  }
+  .main__header {
+    padding: 0;
   }
   .coming__soon {
     width: 100%;
