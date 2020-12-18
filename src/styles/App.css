@@ -3,10 +3,13 @@
 }
 
 .container {
-  height: 660px;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.reduced__container {
+  height: 660px;
 }
 
 .caption__container {
@@ -24,6 +27,7 @@
   font-size: 3rem;
   line-height: 3.625rem;
   color: #0000FF;
+  margin-bottom: 1.875rem;
 }
 
 .caption__container .primary__button {
@@ -42,6 +46,8 @@
   line-height: 3.625rem;
   text-align: center;
   color: #080708;
+  margin-top: 0;
+  margin-bottom: 1.875rem;
 }
 
 .description__sub__section {
@@ -62,6 +68,7 @@
 
 .container.presentation {
   height: min-content;
+  margin-top: 120px;
 }
 
 .presentation__container {
@@ -76,6 +83,7 @@
 
 .footer__links {
   color: #080708;
+  line-height: 1.625rem;
 }
 
 .footer__links:not(:last-of-type) {
@@ -95,10 +103,10 @@
     width: 80%;
     max-width: 80%;
     margin: auto;
+    margin-bottom: 40px;
   }
   .content__creation__container {
     height: min-content;
-    margin-bottom: 120px;
   }
   .reduced__container {
     margin-top: -70px;

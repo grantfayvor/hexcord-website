@@ -27,7 +27,7 @@ const Home = () => {
           <h1 className="main__caption">
             Video content creation that is fast, easy, and simple.
           </h1>
-          <h3 className="bold__message">
+          <h3 style={{ margin: 0 }} className="bold__message">
             Install. Open Extension. Start Recording.
           </h3>
           <a
@@ -41,7 +41,7 @@ const Home = () => {
       <section className="container content__creation__container">
         <main className="description__container">
           <h1 className="description__caption">Easy Video Content Creation</h1>
-          <h3 className="bold__message">
+          <h3 style={{ marginTop: 0, marginBottom: "3.625rem" }} className="bold__message">
             Creating video presentations should not be hard. I'm sure you agree.
           </h3>
           <section className="description__sub__section">
@@ -74,7 +74,7 @@ const Home = () => {
           <h1 className="description__caption">
             Speed & Ease with Every Video
           </h1>
-          <h3 className="bold__message">Here is how it works.</h3>
+          <h3 style={{ marginTop: 0, marginBottom: "3.625rem" }} className="bold__message">Here is how it works.</h3>
           <img
             src={user_flow}
             className="userflow__presentation"
@@ -97,7 +97,7 @@ const Home = () => {
           <h1 className="description__caption">
             Its easy, its fast, its Hexcord
           </h1>
-          <h3 className="bold__message">
+          <h3 style={{ marginTop: 0, marginBottom: "2.5rem" }} className="bold__message">
             Install. Open extension. Start recording.
           </h3>
           <a

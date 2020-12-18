@@ -12,6 +12,7 @@ const Footer = () => {
           LinkedIn
         </a>
       </section>
+      <hr className="footer__divider" />
       <section>
         <NavLink className="footer__links boring__link" to="/privacy-policy">Privacy Policy</NavLink>
         <NavLink className="footer__links boring__link" to="/terms-condition">
