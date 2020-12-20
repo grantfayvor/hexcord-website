@@ -234,6 +234,16 @@ const TermsAndCondition = (props) => {
           infringes, otherwise violates, or advocates the infringement or other
           violation of, any third party rights.
         </p>
+        <p className="regular_16">
+          When a recording is started while user is online, the recording data is 
+          uploaded in chunks to Hexcord's media server via a WebRTC connection. This 
+          is to reduce the time to save the recording at the end of the recording. 
+          However, if the recording is cancelled, the chunks would be discarded and if the 
+          recording is saved, the chunks would be combined and published directly to the users 
+          Google drive or Dropbox account. We do not store recordings internally. Ultimately, 
+          the user is in charge of their recording and can remove it at any time from their storage 
+          provider (Google Drive or Dropbox).
+        </p>
         <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
           Your Privacy
         </h2>
