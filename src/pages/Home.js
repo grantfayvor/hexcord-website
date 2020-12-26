@@ -74,17 +74,16 @@ const Home = () => {
             Speed & Ease with Every Video
           </h1>
           <h3 style={{ marginTop: 0, marginBottom: "3.625rem" }} className="bold__message">Here is how it works.</h3>
-          <div className="userflow__presentation">
-            <video
-              autoPlay
-              loop
-              muted
-              src="https://res.cloudinary.com/hyper-debugger/video/upload/so_0,eo_34/Hexcord_User_Flow.mp4"
-              poster="https://res.cloudinary.com/hyper-debugger/video/upload/v1608994563/Hexcord_User_Flow.png"
-            >
-              Hexcord User Flow
-            </video>
-          </div>
+          <video
+            autoPlay
+            loop
+            muted
+            src="https://res.cloudinary.com/hyper-debugger/video/upload/so_0,eo_34/Hexcord_User_Flow.mp4"
+            poster="https://res.cloudinary.com/hyper-debugger/video/upload/v1608994563/Hexcord_User_Flow.png"
+            className="userflow__presentation"
+          >
+            Hexcord User Flow
+          </video>
         </main>
       </section>
       <section className="container closing">
