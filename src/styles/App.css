@@ -90,10 +90,9 @@
   margin-right: 60px;
 }
 
-.chrome__button {
-  /*Hey! I'm not yet ready to show the extension link but congrats if you found it here.*/
+/* .chrome__button {
   display: none!important;
-}
+} */
 
 @media screen and (max-width: 600px) {
   .description__sub__section {
