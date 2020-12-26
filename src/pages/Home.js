@@ -2,7 +2,6 @@ import React from "react";
 import record_image from "../assets/record.svg";
 import share_image from "../assets/share.svg";
 import upload_image from "../assets/upload.svg";
-import user_flow from "../assets/hexcord_user_flow.gif";
 
 const Home = () => {
   return (
@@ -75,11 +74,17 @@ const Home = () => {
             Speed & Ease with Every Video
           </h1>
           <h3 style={{ marginTop: 0, marginBottom: "3.625rem" }} className="bold__message">Here is how it works.</h3>
-          <img
-            src={user_flow}
-            className="userflow__presentation"
-            alt="Hexcord User Flow"
-          />
+          <div className="userflow__presentation">
+            <video
+              autoPlay
+              loop
+              muted
+              src="https://res.cloudinary.com/hyper-debugger/video/upload/so_0,eo_34/Hexcord_User_Flow.mp4"
+              poster="https://res.cloudinary.com/hyper-debugger/video/upload/v1608994563/Hexcord_User_Flow.png"
+            >
+              Hexcord User Flow
+            </video>
+          </div>
         </main>
       </section>
       <section className="container closing">
