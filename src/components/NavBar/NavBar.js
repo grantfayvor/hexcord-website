@@ -15,7 +15,7 @@ const NavBar = ({ onlyLogo = false }) => {
         {
           !onlyLogo && (
             <div style={{ display: "flex", alignItems: "center" }}>
-              {/* <NavLink to="/coming-soon" className="link boring__link">Beta Sign Up</NavLink> */}
+              <a href="https://app.hexcord.com" className="link boring__link">Sign In</a>
               <a
                 href="https://chrome.google.com/webstore/detail/hexcord/apkdlkpcghonmghkbkhhjpaemnmjahgi"
                 className="primary__button navbar__add__to__chrome chrome__button"
