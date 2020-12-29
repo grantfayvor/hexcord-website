@@ -94,7 +94,6 @@ const Home = () => {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            paddingTop: 14,
             paddingBottom: 14,
           }}
         >

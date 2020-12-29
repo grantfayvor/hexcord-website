@@ -74,7 +74,7 @@
 
 .presentation__container {
   padding-bottom: 120px;
-  border-bottom: 1px solid #BED1FF;
+  /* border-bottom: 1px solid #BED1FF; */
 }
 
 .container.closing {
