@@ -1,5 +1,6 @@
 .home__wrapper {
   background: url(../assets/background.svg);
+  background-attachment: fixed;
 }
 
 .container {
