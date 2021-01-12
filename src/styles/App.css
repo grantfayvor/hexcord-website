@@ -1,6 +1,9 @@
 .home__wrapper {
   background: url(../assets/background.svg);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .container {
@@ -60,7 +63,6 @@
   width: 30%;
   max-width: 250px;
 }
-
 
 .userflow__presentation {
   height: 555px;
