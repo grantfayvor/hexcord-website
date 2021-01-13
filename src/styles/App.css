@@ -1,7 +1,7 @@
 .home__wrapper {
   background: url(../assets/background.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-repeat: repeat; */
   background-position: center;
   background-size: 100%;
 }
