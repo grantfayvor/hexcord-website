@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BackButton } from "../components/Button";
 
 const Privacy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <section className="main__container">
       <main>
         <BackButton />
         <h1
           className="bold_41"
-          style={{ marginTop: 14, marginBottom: 14, textAlign: "center" }}
+          style={{ marginTop: 14, marginBottom: 14, textAlign: "center", lineHeight: 1 }}
         >
-          Privacy Policy for Hex cord
+          Privacy Policy for Hexcord
         </h1>
         <h2 className="privacy__policy__header">Introduction</h2>
         <p className="regular_16">

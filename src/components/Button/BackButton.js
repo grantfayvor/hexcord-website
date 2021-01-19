@@ -7,9 +7,9 @@ const BackButton = () => {
     <NavLink
       to="/"
       className="regular_16 boring__link"
-      style={{display: "flex", alignItems: "center", paddingBottom: 20}}
+      style={{ display: "flex", alignItems: "center" }}
     >
-      <img alt="Back icon" src={backIcon} style={{paddingRight: 20}}/>
+      <img alt="Back icon" src={backIcon} style={{ paddingRight: 20 }} />
       <p> Back to Home</p>
     </NavLink>
   );
