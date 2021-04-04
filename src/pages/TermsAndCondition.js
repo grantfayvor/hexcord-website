@@ -280,6 +280,33 @@ const TermsAndCondition = (props) => {
           the material on the website is kept up to date.
         </p>
         <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          YouTube Access
+        </h2>
+        <p className="regular_16">
+          By granting Hexcord permissions to your YouTube account, you agree to allow 
+          Hexcord upload videos on your behalf to your YouTube channel and also create Live stream
+          events on your channel on request by you. By using Hexcord, you agree to be bound by 
+          the YouTube Terms of use as defined in the the Terms of Service <a href="https://www.youtube.com/t/terms">here</a>.
+        </p>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Google Drive Access
+        </h2>
+        <p className="regular_16">
+          By granting Hexcord permissions to your Google Drive account, you agree to allow
+          Hexcord upload videos on your behalf to your Drive. By using Hexcord, you agree to be bound by
+          the Google Drive Terms of use as defined in the the Terms of Service <a href="https://www.google.com/drive/terms-of-service">here</a>.
+        </p>
+        <h2>Removal of Links from our Website</h2>
+        <p className="regular_16">
+          If you find any link on our Website that is offensive for any reason,
+          you are free to contact and inform us any moment. We will consider
+          requests to remove links but we are not obligated to or so or to
+          respond to you directly. We do not ensure that the information on this
+          website is correct, we do not warrant its completeness or accuracy;
+          nor do we promise to ensure that the website remains available or that
+          the material on the website is kept up to date.
+        </p>
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
           Disclaimer
         </h2>
         <p className="regular_16">

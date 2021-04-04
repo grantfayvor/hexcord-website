@@ -5,7 +5,7 @@ const Privacy = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <section className="main__container">
       <main>
@@ -140,7 +140,7 @@ const Privacy = () => {
         </h2>
 
         <p className="regular_16">
-          hexcord's Privacy Policy does not apply to other advertisers or
+          Hexcord's Privacy Policy does not apply to other advertisers or
           websites. Thus, we are advising you to consult the respective Privacy
           Policies of these third-party ad servers for more detailed
           information. It may include their practices and instructions about how
@@ -219,6 +219,34 @@ const Privacy = () => {
         <p className="regular_16">
           If you make a request, we have one month to respond to you. If you
           would like to exercise any of these rights, please contact us.
+        </p>
+
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Google Access
+        </h2>
+        <p className="regular_16">
+          By granting Hexcord permissions to your Google account, you will be protected by
+          the Google Privacy Policy defined <a href="http://www.google.com/policies/privacy">here</a>. You
+          can always revoke Hexcord's access to your Google account <a href="https://security.google.com/settings/security/permissions">here</a>.
+        </p>
+
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          YouTube Access
+        </h2>
+        <p className="regular_16">
+          By granting Hexcord permissions to your YouTube account, you agree to allow
+          Hexcord upload videos on your behalf to your YouTube channel and also create Live stream
+          events on your channel on request by you. By using Hexcord, you agree to be bound by
+          the YouTube Terms of use as defined in the the Terms of Service <a href="https://www.youtube.com/t/terms">here</a>.
+        </p>
+
+        <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
+          Google Drive Access
+        </h2>
+        <p className="regular_16">
+          By granting Hexcord permissions to your Google Drive account, you agree to allow
+          Hexcord upload videos on your behalf to your Drive. By using Hexcord, you agree to be bound by
+          the Google Drive Terms of use as defined in the the Terms of Service <a href="https://www.google.com/drive/terms-of-service">here</a>.
         </p>
 
         <h2 className="privacy__policy__header" style={{ marginTop: 15 }}>
